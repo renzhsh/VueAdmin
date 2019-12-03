@@ -1,0 +1,33 @@
+{
+  "name": "vue-admin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.4.6",
+    "core-js": "^3.3.2",
+    "rzs-spring": "^1.0.2",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-plugin-import": "^1.8.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-cli-plugin-viewui": "^2.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
