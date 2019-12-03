@@ -9,7 +9,7 @@
 #### FormFactory
 参数|说明|类型|默认值
 -|-|-|-
-layout|表单布局，和 [Form](https://www.antdv.com/components/form-cn/)一致|`'horizontal'|'vertical'|'inline'`|`'horizontal'`
+layout|表单布局，和 [Form](https://www.antdv.com/components/form-cn/)一致|`'horizontal','vertical','inline'`|`'horizontal'`
 layoutGrid|`'horizontal'`布局下，一行内有多个表单域的栅格配置。|`Object`|
 labelCol|属性`labelCol`和`wrapperCol`用于设置表单域的label和输入控件的布局。具体含义和用法参考[Form.Item](https://www.antdv.com/components/form-cn/#Form.Item)|`Object`|
 wrapperCol||`Object`|
@@ -25,7 +25,6 @@ submitText|`submit`按钮的文本|`String`|`提交`
 此时通过属性`layoutGrid`进行配置：
 属性`layoutGrid`的含义和取值参考[Grid](https://www.antdv.com/components/grid-cn/#api)
 ```json
-    //layoutGrid的默认值
     {
         row: {
           align: "top",
@@ -56,7 +55,7 @@ label|label标题|`String`|
 labelCol|同`FormFactory.labelCol`|`Object`|
 wrapperCol|同`FormFactory.wrapperCol`|`Object`|
 name|输入控件绑定值(`v-model`)的名称, __必填项__ |`String`|
-type|输入控件的类型。本组件只提供了`input`,如果要使用其他控件，请设置`type=slot`并自定义输入控件|`'input'|'slot'`|`input`
+type|输入控件的类型。本组件只提供了`input`,如果要使用其他控件，请设置`type=slot`并自定义输入控件|`'input','slot'`|`input`
 placeholder|placeholder|`String`|
 readonly|placeholder|`Boolean`|`false`
 disabled|disabled|`Boolean`|`false`
